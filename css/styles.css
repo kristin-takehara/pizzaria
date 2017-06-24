@@ -1,0 +1,109 @@
+body{
+  font-family: 'Titillium Web', sans-serif;
+  text-align: center;
+  cursor: url('../assets/slice_P_PEPPERONI-SLICE.png'), auto;
+}
+
+img{
+  height: 100px;
+  width: 100px;
+  display: block;
+  margin: auto;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+span{
+  color: red;
+}
+
+#topMenu{
+  color:red;
+}
+
+#name, #tagLine{
+  text-align: center;
+}
+#name{
+  font-size: 50px;
+}
+#tagLine{
+  font-size: 40px;
+}
+
+.guide{
+  text-align: center;
+  color: red;
+  display: inline;
+  margin: 80px;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 5px;
+}
+.guide:hover{
+  background-color: black;
+  color: white;
+ } 
+
+#menu{
+  background-color: yellow;
+}
+
+.selectionTitle, .special{
+  background: black;
+  color: white;
+  border: 5px solid black;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+
+#special {
+  font-size: 40px;
+  color: #ff0066;
+  animation: fadeAndScale 5s cubic-bezier(.2, 2.14, .88, 1.68); 
+    transform-origin: center bottom;
+}
+  
+@keyframes fadeAndScale{
+  from {
+    opacity: 0;
+    transform: scale3d(.30, .30, 1.5);
+  }
+  to{
+    opacity: 1;
+    transform: scale3d(1.5, 1.5, 1.5);
+  }
+}
+
+.pizzaName{
+  font-size: 20px;
+  color: green;
+  text-decoration: underline;
+}
+.price{
+  color: red;
+}
+
+#subscribe{
+  background-color: red;
+  font-size: 30px;
+}
+
+/*.sectionTitle{
+  text-align: center;
+}*/
+
+/*.content{
+  text-align: center;
+}*/
+
+
+#footer{
+  background-color: orange;
+}
+
+

@@ -26,7 +26,6 @@ This site will have six sections:
 ###1. Header
 
 1. Create a header element with an id of "intro".
-2. Inside the header element, create a div element with a class of "content".
 3. Inside the div element, create a h1 element with an id of "name" and insert the text "Pizzaria La DevLeague" as content for the h1 tag.
 4. Inside the div element, create an h2 element with an id of "tagLine" and insert the text "Functional Pizza For All!" as the content for the h2 tag.
 5. Inside the div element, create an img element and from the assets folder insert the pizzaMan.jpeg for the src attribute. Insert "logo" in the alt attribute.
